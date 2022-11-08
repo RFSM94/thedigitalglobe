@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding: 0;
+    background-color: var(--my-background)
+}
+
+html {
+  --my-background: whitesmoke;
+  --title-font-size: 12px;
+  --title-font-color: #111111;
+  --title-font-family: 'Press Start 2P', cursive;
+  --box-p-font-family: 'Chakra Petch', sans-serif;
+  --main-font-family: 'Press Start 2P', cursive;
+  --main-title-font-size: 16px;
+  --main-p-font-size: 16px;
+  --boxes-border: 1px solid black;
+  --boxes-background-color: whitesmoke;
+}
+
+.body {
+  background-color: #F0F2E9;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  margin: 5px;
+}
+
+/* CONTEUDOS DA MAIN */
+
+.row {
+    display: flex;
+    margin-top: 5%;
+    background-color: transparent;
+}
+  
+.column {
+  float: left;
+  padding: 10px;
+    overflow: hidden;
+    background-color: transparent;  
+}
+
+
+.left, .right {
+  width: 40%;
+  height: 500px;
+}
+
+.middle {
+  width: 20%;
+  height: 500px;
+}
+
+/* IMAGENS FORMATACAO */
+
+img {
+    cursor:context-menu;
+    flex-wrap: wrap;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    align-items: center;
+    background-color: transparent;
+}
+
+/* BOLDS*/
+
+.bolddirty {
+  color: forestgreen;
+  background-color: transparent;
+}
+
+.bolddirtybad {
+  color: crimson;
+  background-color: transparent;
+}
+
+.boldbits {
+  color: blue;
+  background-color: transparent;
+}
+
+.hide {
+  display: none;
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #5d5d5d;
+  font-style: italic;
+}
+
+/* SUBTITULOS DIRTY DATA */
+
+.success {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+  background-color: transparent;
+}
+
+.error {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+img:hover + .hide{
+  display: block;
+}
+
+/* TEXTOS */
+
+.note {
+  color: grey;
+  font-size: 20;
+  background-color: transparent;
+  width: fit-content;
+}
+
+.note:hover + .hide {
+  display: block;
+}
+
+p {
+  background-color: transparent;
+}

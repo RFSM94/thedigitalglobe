@@ -1,0 +1,103 @@
+/* BARRA DE NAVEGAÇÃO */
+
+.menu {
+    overflow: hidden;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+
+.dropdown-content {
+    font-size: 16px;
+    color: var(--title-font-color);
+    border: var(--boxes-border);
+    font-family: var(--box-p-font-family);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: none;
+    padding: 40px;
+    display: block;
+    text-align: left;
+  
+}
+
+
+
+/* DROPDOWN 1 - INFINITY CANVAS */
+  
+ .infinity-botao {
+    font-family: var(--box-p-font-family);
+    font-size: 18px;
+    border: var(--boxes-border);
+    outline: none;
+    padding: 14px 16px;
+    margin-bottom: 0px;
+}
+  
+  .drop-infinity {
+    float: left;
+    overflow: hidden;
+    margin: 10px;
+    text-align: center;
+}
+
+  .drop-infinity:hover .dropdown-content {
+    display: block;
+}
+
+/* DROPDOWN 2 - DIRTY DATA*/
+
+.data-botao {
+  font-family: var(--box-p-font-family);
+  font-size: 18px;
+  border: var(--boxes-border);
+  background-color: var(--my-background);
+  color: var(--title-font-color);
+  outline: none;
+  padding: 14px 16px;
+  margin-bottom: 0px;
+}
+
+.drop-data {
+    overflow: hidden;
+    margin: 10px;
+}
+
+.drop-data:hover .dropdown-content {
+    display: block;
+}
+
+/* DROPDOWN 3 - DEMOCRATIC BITS */
+
+.democratic-botao {
+  font-family: var(--box-p-font-family);
+  font-size: 18px;
+  border: var(--boxes-border);
+  background-color: var(--my-background);
+  color: var(--title-font-color);
+  outline: none;
+  padding: 14px 16px;
+  margin: 0px;
+}
+
+.drop-democratic {
+    float: left;
+    margin: 10px;
+}
+  
+.drop-democratic:hover .dropdown-content {
+    display: block;
+}
+/* DROPDOWN GERAL */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    max-width: 300px;
+    z-index: 1;
+}

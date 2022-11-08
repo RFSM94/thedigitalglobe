@@ -1,0 +1,112 @@
+
+/* DRAGGABLE CONTENT */
+
+.maintitle {
+    font-family: var(--title-font-family);
+    text-align: center;
+}
+
+#dragablevalue1, #dragablevalue2, #dragablevalue3, #dragablevalue4, #dragablevalue5, #dragablevalue6, #dragablevalue7, #dragablevalue8, #dragablevalue9, #dragablevalue10 {
+    position: absolute;
+    background-color: var(--my-background);
+}
+
+#headervalue1, #headervalue2, #headervalue3, #headervalue4, #headervalue5, #headervalue6, #headervalue7, #headervalue8, #headervalue9, #headervalue10 {
+    cursor: move;
+    font-family: var(--box-p-font-family);
+    padding: 20px;
+    display: block;
+    overflow: hidden;
+    max-width: 250px;
+    text-align: left;
+    width: 250px;
+    color: var(--title-font-color);
+    border: var(--boxes-border);  
+    height: fit-content;
+}
+
+.hover {
+    background-color: #dbdbdb;
+    color: var(--my-background);
+}
+
+.hover1 {
+    background-color: #c3c3c3;
+
+}
+
+/* POSICAO CAIXAS */
+
+.value {
+    position:absolute;
+    left: 30px;
+   
+}
+
+.normalize {
+    position:absolute;
+    left: 20px;
+    
+}
+
+.predict {
+    position:absolute;
+    left: 315px;
+    top: -10px;
+   
+}
+
+.participate{
+    position:absolute;
+    top: 460px;
+    left: 315px;
+
+}
+
+.consent {
+    position:absolute;
+    top: 480px;
+    left: 350px;
+
+}
+
+.link {
+    position:absolute;
+    left: 350px;
+    top: 70px;
+}
+
+.share {
+    position:absolute;
+    top: 500px;
+
+}
+
+.cooperate {
+    position:absolute;
+    top: 400px;
+    left: 20px;
+}
+
+.diversify {
+    position:absolute;
+    top: 450px;
+    left: 30px;
+
+}
+
+.invent {
+    position:absolute;
+    top: 50px;
+
+}
+
+/* BOLDS */
+
+.success {
+    color: forestgreen;
+}
+
+.error {
+    color: crimson;
+}
