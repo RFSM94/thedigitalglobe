@@ -5,47 +5,41 @@
         <title>The Digital Globe</title>
         <link rel="icon" type="image/x-icon" href="./icons/earth.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="utf-8">
+        <meta name="author" content="Raquel Martins">
+        <meta charset="utf-8"> 
         <!-- FOLHAS DE ESTILO -->
         <link rel="stylesheet" href="boxes.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="navbar.css">
         <link rel="stylesheet" href="responsive.css">
-        <link rel="stylesheet" href="hover.css">
         <!-- FONTES -->
-        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P">
-        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch">
    
     </head>
         
     <body>
-        <img class="globe" src="./icons/earth.png">
 
+<!-- PG CENTER -->    
 
+            <div class="menu">
 
-<!-- CENTRO DA PAGINA -->    
-
-
-                <div class="menu">
-
+                       <!--CAIXA RESUMO DIGITAL GLOBE -->
+                    <div class="drop-globe">
+                        <p class="globe-botao">The Digital Globe</p>
+                        <div class="dropdown-content">
+                            The world is a stage and the web has made it even bigger. Many narratives happen within it, good and bad. It is in our hands to make our own narrative and contribute for what we want the digital globe to be. 
+                          </div>
+                        </div>
+              
                     <!--CAIXA RESUMO DIRTY DATA -->
-
+                   
                     <div class="drop-data">
                         <p class="hov data-botao">Dirty Data</p>
                         <div class="hov dropdown-content">
                             Dirty data, are inaccurate, incomplete or inconsistent data, especially in a computer system or database. They’re also the base of algorithmic prediction models, which currently shape the digital and real world.
-                          </div>
+                        </div>
                     </div>
-
-                    <!--CAIXA RESUMO INFINITY -->
-                    
-                                    <div class="drop-infinity">
-                                        <p class="infinity-botao">The Digital Globe</p>
-                                        <div class="dropdown-content">
-                                            The world is a stage and the web has made it even bigger. Many narratives happen within it, good and bad. It is in our hands to make our own narrative and contribute for what we want the digital globe to be. 
-                                          </div>
-                                    </div>
-
                 
                     <!--CAIXA RESUMO DEMOCRATIC -->
 
@@ -55,33 +49,37 @@
                                         The creation of the Personal Computer and the World Wide Web were seen as promised lands of enhancement for the future of humanity, thanks to its infinite potencial of creating, organizing and sharing ideas.
                                       </div>
                                     </div>
-                </div>   
+                
+            </div>   
     
-<div class="row">                            
-<!-- COLUNA 1 -->
-                <div class="column left">
+<div class="row">      
 
-                    <!--dirty data caixa value-->        
-<div id="dragablevalue1">  
+<!-- COL 1 -->
+
+<div class="column one">
+
+                    <!--dirty data box value-->  
+
+    <div id="dragablevalue1">  
                                 <div id="headervalue1" class="hov value">
-
+                                    <img id="movable" src="./icons/drag.png">
                                     <p class="maintitle">VALUE</p>
-                                    <p class="success">SUCCESS!</p>
-                                    <img src="./imgs/value.jpg">
-
+                                    <!--<p class="success">SUCCESS!</p>-->                           
+                                    <img class="hideimg" src="./imgs/value.jpg">
                                     <div class="hide">“The world’s most valuable resource is no longer oil, but data.” David Parkins, The Economist, 2017</div>
-
-                                    <p>“<b class="bolddirty">Data</b> also started to be viewed as <b class="bolddirty">capital</b> [...] Once human activities are expressed through digital traces and then tallied up and ranked within scoring metrics, they function as a way to <b class="bolddirty">extract value.</b>”
+                                    <p>“<b>Data</b> also started to be viewed as <b>capital</b> [...] Once human activities are expressed through digital traces and then tallied up and ranked within scoring metrics, they function as a way to <b>extract value.</b>”
 
                                         <div class="note">[2]</div>
                                         <div class="hide">Crawford, Kate. 2021 Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence. New Haven, London: Yale University Press.</div>
 
                                     </p>
                                 </div>
-</div>
-                    <!--democratic bits caixa link-->
-  <div id="dragablevalue6"> 
+    </div>
+                    <!--democratic bits box link-->
+
+    <div id="dragablevalue6"> 
     <div id="headervalue6" class="hov1 link">
+        <img id="movable" src="./icons/drag.png">
         <p class="maintitle">LINK</p>
         <img id="link" src="./imgs/link.jpg">
         <div class="hide">Patchwork Girl by Shelley Jackson</div>
@@ -91,12 +89,20 @@
                 <div class="hide">The World Wide Web — Tim Berners-Lee, Robert Cailliau, Ari Loutonen, Henrik Frystyk Nielsen, and Arthur Secret, 1994</div>
         </p>
     </div>
+    </div>
+
 </div>
+
+<!-- COL 2 -->
+
+<div class="column two">
                     <!--democratic bits caixa diversify-->
+
 <div id="dragablevalue9">
                                         
                         <div id="headervalue9" class="hov1 diversify">
-                                <p class="maintitle">DIVERSIFY</p>
+                            <img id="movable" src="./icons/drag.png">
+                               <p class="maintitle">DIVERSIFY</p>
                                 <img src="./imgs/diversify.jpg">
                                 <div class="hide">Prototype World-Wide Webapplication for NextStep machines</div>
                                 <p>“The incredible <b class="boldbits">diversity</b> of information available gives great credit to the <b class="boldbits">creativity and ingenuity</b> of information providers, and points to a very exciting future.” 
@@ -108,8 +114,9 @@
                     <!--dirty data caixa consent-->
 <div id="dragablevalue5">                              
                                 <div id="headervalue5" class="hov consent">
+                                    <img id="movable" src="./icons/drag.png">
                                     <p class="maintitle">CONSENT</p>
-                                    <p class="error">ERROR!</p>
+                                    <!--<p class="error">ERROR!</p>-->
                                     <img src="./imgs/consent.jpg">
                                     <div class="hide">Images from NIST Special Database 32 - Multiple Encouter Dataset (MEDS). National Institute of Standards and Technology, U.S. Department of Commerce</div>
                                     
@@ -121,16 +128,19 @@
                                 </div>
 
 </div>
-                </div>
+</div>
+                
+<!-- COL 3 -->
 
-                <div class="column middle">
+<div class="column three">
                     <!--dirty data caixa normalize-->
 
                     <div id="dragablevalue2"> 
 
                         <div id="headervalue2" class="hov normalize">
+                            <img id="movable" src="./icons/drag.png">
                             <p class="maintitle">NORMALIZE</p>
-                            <p class="success">SUCCESS!</p>
+                            <!--<p class="success">SUCCESS!</p>-->
                             <img src="./imgs/normalize.jpg">
                             <div class="hide">Aerial view of Levittown, Pennsylvania c. 1959 - Wikipedia</div>
 
@@ -141,9 +151,12 @@
                             </p>
                         </div>
                     </div>
-                    <!--democratic bits caixa cooperate-->                            
+
+                    <!--democratic bits caixa cooperate-->     
+
                 <div id="dragablevalue8">                                  
     <div id="headervalue8" class="hov1 cooperate">
+        <img id="movable" src="./icons/drag.png">
         <p class="maintitle">COOPERATE</p>
         <img src="./imgs/cooperate.jpg">
         <div class="hide">View of an MOL program, with <br>level parameter set to 6<br>and truncation to 1</div>
@@ -154,15 +167,17 @@
         </p>
     </div>
                 </div>  
+</div>
+            
+<!-- COL 4 -->
 
-                </div>
-<!-- COLUNA 2 -->
-                <div class="column right">
+<div class="column four">
                   
                     <!--democratic bits caixa share-->                       
  <div id="dragablevalue7">                            
                                  <div id="headervalue7" class="hov1 share">
-                                    <p class="maintitle">SHARE</p>
+                                    <img id="movable" src="./icons/drag.png">
+                                    <p class="maintitle">SHARE</p>                                 
                                     <img src="./imgs/share.jpg">
                                     <div class="hide">On-line conference arrangement</div>
                                     
@@ -176,8 +191,9 @@
                     <!--dirty data caixa predict-->
 <div id="dragablevalue3">                                 
                         <div id="headervalue3" class="hov predict">
+                            <img id="movable" src="./icons/drag.png">
                         <p class="maintitle">PREDICT</p>
-                        <p class="success">SUCCESS!</p>
+                        <!--<p class="success">SUCCESS!</p>-->
                         <img src="./imgs/predict.jpg">
                         <div class="hide">Magnetic repulsion,<br> Science Photo Library</div>
 
@@ -187,12 +203,19 @@
                             <div class="hide">Chun, Wendy. 2021. Discriminating Data: Correlation, Neighborhoods, and the New Politics of Recognition. Cambridge, Massachusetts: The MIT Press.</div>
                         </p>
                     </div>
-</div>                          
+</div> 
+
+</div>
+
+<!-- COL 5 -->
+
+<div class="column five">
                     <!--dirty data caixa participate-->
  <div id="dragablevalue4">                             
-    <div id="headervalue3" class="hov participate">
+    <div id="headervalue4" class="hov participate">
+        <img id="movable" src="./icons/drag.png">
         <p class="maintitle">PARTICIPATE</p>
-        <p class="error">ERROR!</p>
+        <!--<p class="error">ERROR!</p>-->
         <img src="./imgs/participate.jpg">
         <div class="hide">“Alexa: I am your servant”, <br>Medium, ACG, 2019</div>
 
@@ -206,6 +229,7 @@
                     <!--democratic bits caixa invent-->
 <div id="dragablevalue10">                                           
                                     <div id="headervalue10" class="hov1 invent">
+                                        <img id="movable" src="./icons/drag.png">
                                                 <p class="maintitle">INVENT</p>
                                                 <img src="./imgs/invent.jpg">
                                                 <div class="hide">Traffic in bytes per month across the NSF T3backbone in the U.S. File Transfer Protocol (FTP)</div>
@@ -216,11 +240,12 @@
                                     </div>
 </div>
 
-                </div>
-        
+</div>
+
 </div>
 
 <!-- SCRIPT -->
+
         <script src="script.js"></script>
         
     </body>
