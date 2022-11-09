@@ -4,11 +4,9 @@
     overflow: hidden;
     width: 100%;
     z-index: 1000;
-    text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-  
+    text-align: center;
 }
 
 .dropdown-content {
@@ -23,41 +21,41 @@
     padding: 40px;
     display: block;
     text-align: left;
-  
+    display: none;
+    position: absolute;
+    max-width: 300px;
+    z-index: 1;
 }
 
-
-
-/* DROPDOWN 1 - INFINITY CANVAS */
+/* NAVEGACAO - DIGITAL GLOBE */
   
- .infinity-botao {
-    font-family: var(--box-p-font-family);
-    font-size: 18px;
-    border: var(--boxes-border);
-    outline: none;
-    padding: 14px 16px;
-    margin-bottom: 0px;
+ .globe-botao {
+  background-color: var(--title-font-color);
+  color: var(--my-background);
+  font-family: var(--box-p-font-family);
+  border: var(--boxes-border);
+  font-size: 18px;
+  outline: none;
+  padding: 14px 16px;
+  margin-bottom: 0px;
 }
   
-  .drop-infinity {
-    float: left;
+  .drop-globe {
     overflow: hidden;
     margin: 10px;
     text-align: center;
 }
 
-  .drop-infinity:hover .dropdown-content {
+  .drop-globe:hover .dropdown-content {
     display: block;
 }
 
-/* DROPDOWN 2 - DIRTY DATA*/
+/* NAVEGACAO - DIRTY DATA*/
 
 .data-botao {
   font-family: var(--box-p-font-family);
-  font-size: 18px;
   border: var(--boxes-border);
-  background-color: var(--my-background);
-  color: var(--title-font-color);
+  font-size: 18px;
   outline: none;
   padding: 14px 16px;
   margin-bottom: 0px;
@@ -72,14 +70,13 @@
     display: block;
 }
 
-/* DROPDOWN 3 - DEMOCRATIC BITS */
+/* NAVEGACAO - DEMOCRATIC BITS */
 
 .democratic-botao {
   font-family: var(--box-p-font-family);
-  font-size: 18px;
   border: var(--boxes-border);
-  background-color: var(--my-background);
   color: var(--title-font-color);
+  font-size: 18px;
   outline: none;
   padding: 14px 16px;
   margin: 0px;
@@ -92,12 +89,5 @@
   
 .drop-democratic:hover .dropdown-content {
     display: block;
-}
-/* DROPDOWN GERAL */
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    max-width: 300px;
-    z-index: 1;
+    color: var(--my-background);
 }
