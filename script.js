@@ -1,4 +1,5 @@
 /* DRAG 1 */
+
 //Make the DIV element draggagle:
 dragElement(document.getElementById("dragablevalue1"));
 
@@ -253,6 +254,7 @@ function dragElement(elmnt) {
     document.onmouseup = closeDragElement;
     // call a function whenever the cursor moves:
     document.onmousemove = elementDrag;
+    // when the mouse is down
   }
 
   function elementDrag(e) {
@@ -459,12 +461,14 @@ function dragElement(elmnt) {
   }
 }
 
-/*HOVER*/
+/* HOVER */
 
 document.body.addEventListener( 'mouseover', function( event ) {
   if( event.target.classList.contains( 'hov' ) ) {
       [].forEach.call(document.getElementsByClassName( 'hov' ), function( elem ) {
           elem.classList.add( 'hover' );
+          elem.style.color = 'white';
+
       });
   }
 });
@@ -473,17 +477,19 @@ document.body.addEventListener( 'mouseout', function( event ) {
   if( event.target.classList.contains( 'hov' ) ) {
       [].forEach.call(document.getElementsByClassName( 'hov' ), function( elem ) {
           elem.classList.remove( 'hover' );
+          elem.style.color = 'black';
       });
   }
 });
 
 
-/*HOVER2*/
+/* HOVER2 */
 
 document.body.addEventListener( 'mouseover', function( event ) {
   if( event.target.classList.contains( 'hov1' ) ) {
       [].forEach.call(document.getElementsByClassName( 'hov1' ), function( elem ) {
           elem.classList.add( 'hover1' );
+          elem.style.color = 'white';
       });
   }
 });
@@ -492,49 +498,11 @@ document.body.addEventListener( 'mouseout', function( event ) {
   if( event.target.classList.contains( 'hov1' ) ) {
       [].forEach.call(document.getElementsByClassName( 'hov1' ), function( elem ) {
           elem.classList.remove( 'hover1' );
+          elem.style.color = 'black';
       });
   }
 });
 
-
-/*HOVER3*/
-
-document.body.addEventListener( 'mouseover', function( event ) {
-  if( event.target.classList.contains( 'hov2' ) ) {
-      [].forEach.call(document.getElementsByClassName( 'hov2' ), function( elem ) {
-          elem.classList.add( 'hover2' );
-      });
-  }
-});
-
-document.body.addEventListener( 'mouseout', function( event ) {
-  if( event.target.classList.contains( 'hov2' ) ) {
-      [].forEach.call(document.getElementsByClassName( 'hov2' ), function( elem ) {
-          elem.classList.remove( 'hover2' );
-      });
-  }
-});
-
-
-/* REMOVE EVENT Value*/
-
-$(window).on('resize', function(ev) {
-  if($(window).width() > 600)
-      $('html').removeId('dragablevalue9').addId('headervalue9');
-  else
-      $('html').removeId('headervalue9').addClass('dragablevalue9');
-});
-
-/* REMOVE EVENT DIVERSIFY*/
-
-$(window).on('resize', function(ev) {
-  if($(window).width() > 600)
-      $('html').removeClass('hov1').addClass('mobile');
-  else
-      $('html').removeClass('mobile').addClass('hov1');
-      location.reload()
-
-});
 
 
 
