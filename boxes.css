@@ -14,99 +14,88 @@
 #headervalue1, #headervalue2, #headervalue3, #headervalue4, #headervalue5, #headervalue6, #headervalue7, #headervalue8, #headervalue9, #headervalue10 {
     cursor: move;
     font-family: var(--box-p-font-family);
+    color: var(--title-font-color);
+    border: var(--boxes-border);  
     padding: 20px;
     display: block;
     overflow: hidden;
     max-width: 250px;
     text-align: left;
     width: 250px;
-    color: var(--title-font-color);
-    border: var(--boxes-border);  
     height: fit-content;
 }
 
+/* COLOR HOVER CAIXAS */
+
 .hover {
-    background-color: #dbdbdb;
-    color: var(--my-background);
+    background-color: var(--hover-color);
 }
 
 .hover1 {
-    background-color: #c3c3c3;
-
+    background-color: var(--hover-color);  
 }
 
-/* POSICAO CAIXAS */
+/* POSITION BOXES */
+
+/* COL 1 */
 
 .value {
     position:absolute;
+    top: 20px;
     left: 30px;
-   
-}
-
-.normalize {
-    position:absolute;
-    left: 20px;
-    
-}
-
-.predict {
-    position:absolute;
-    left: 315px;
-    top: -10px;
-   
-}
-
-.participate{
-    position:absolute;
-    top: 460px;
-    left: 315px;
-
-}
-
-.consent {
-    position:absolute;
-    top: 480px;
-    left: 350px;
 
 }
 
 .link {
-    position:absolute;
-    left: 350px;
-    top: 70px;
+position:absolute;
+top: 300px;
 }
 
-.share {
-    position:absolute;
-    top: 500px;
+/* COL 2 */
 
-}
-
-.cooperate {
+.consent {
     position:absolute;
-    top: 400px;
+    top: 250px;
     left: 20px;
 }
 
 .diversify {
     position:absolute;
-    top: 450px;
-    left: 30px;
+}
 
+/* COL 3 */
+
+.normalize {
+    position:absolute;
+    top: 60px;
+}
+
+.cooperate {
+    position:absolute;
+    top: 350px;
+    left: -20px;
+}
+
+/* COL 4 */
+
+.share {
+    position:absolute;
+    left: -30px;
+}
+
+.predict {
+    position:absolute;
+    top: 270px;
+}
+
+/* COL 5 */
+
+.participate{
+    position:absolute;
 }
 
 .invent {
     position:absolute;
-    top: 50px;
-
-}
-
-/* BOLDS */
-
-.success {
-    color: forestgreen;
-}
-
-.error {
-    color: crimson;
+    top: 350px;
+    left: -100px;
 }
