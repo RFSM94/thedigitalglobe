@@ -10,52 +10,75 @@
         display: flex;
         flex-direction: column;
     }
-
     .column {
      width: 100%;
     }
 
-
-
     .value {
         display: flex;
         flex-direction: column;
-        left: auto;
+        left: 100px;
     }
 
     .link {
         display: flex;
         flex-direction: column;
-        left: auto;
-    }
-
-
-    .normalize {
-        display: flex;
-        flex-direction: column;
-        left: auto;
+        left: 100px;
     }
 
     .diversify {
         display: flex;
         flex-direction: column;
-        left: auto;
+        left: 100px;
     }
 
     .consent {
         display: flex;
         flex-direction: column;
-        left: auto;
+        left: 100px;
     }
 
+    .normalize {
+        display: flex;
+        flex-direction: column;
+        left: 100px;
+        top: 0px;
+    }
+
+    .cooperate {
+        display: flex;
+        flex-direction: column;
+        left: 100px;
+        top: 300px;
+    }
+    
     .share {
         display: flex;
         flex-direction: column;
-        left: auto;
+        left: 100px;
+        top:0px;
     }
 
+    .predict {
+        display: flex;
+        flex-direction: column;
+        left: 100px;
+        top: 300px;
+    }
 
+    .participate {
+        display: flex;
+        flex-direction: column;
+        left: 100px;
+        top: 0px;
+    }
 
+    .invent {
+        display: flex;
+        flex-direction: column;
+        left: 100px;
+        top: 300px;
+    }
 }
 
   
