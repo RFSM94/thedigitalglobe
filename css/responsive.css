@@ -1,0 +1,101 @@
+@media screen and (max-width: 600px) {
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .column {
+     width: 100%;
+    }
+
+    .value {
+        display: flex;
+        flex-direction: column;
+        left: 100px;
+    }
+
+    .link {
+        display: flex;
+        flex-direction: column;
+        left: 100px;
+    }
+
+    .diversify {
+        display: flex;
+        flex-direction: column;
+        left: 100px;
+    }
+
+    .consent {
+        display: flex;
+        flex-direction: column;
+        left: 100px;
+    }
+
+    .normalize {
+        display: flex;
+        flex-direction: column;
+        left: 100px;
+        top: 0px;
+    }
+
+    .cooperate {
+        display: flex;
+        flex-direction: column;
+        left: 100px;
+        top: 300px;
+    }
+    
+    .share {
+        display: flex;
+        flex-direction: column;
+        left: 100px;
+        top:0px;
+    }
+
+    .predict {
+        display: flex;
+        flex-direction: column;
+        left: 100px;
+        top: 300px;
+    }
+
+    .participate {
+        display: flex;
+        flex-direction: column;
+        left: 100px;
+        top: 0px;
+    }
+
+    .invent {
+        display: flex;
+        flex-direction: column;
+        left: 100px;
+        top: 300px;
+    }
+
+    .biblio {
+        font-family: var(--box-p-font-family);
+        font-size: 13px;
+        padding: 10px;
+        max-width: 100%;
+        z-index: 0;
+        background-color: transparent;
+        text-align: left;
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        bottom:0;
+        margin-top: auto;
+        
+      }
+
+}
+
+  

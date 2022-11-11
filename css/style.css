@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+    background-color: var(--my-background)
+}
+
+html {
+  --my-background: whitesmoke;
+  /*BOX TITLES*/
+  --title-font-size: 12px;
+  --title-font-color: #262626 ;
+  --title-font-family: 'Press Start 2P', sans-serif;
+  /* PARAGRAPHS */
+  --box-p-font-family: 'Chakra Petch', sans-serif;
+  --main-title-font-size: 16px;
+  --main-p-font-size: 16px;
+  --notes-color: grey;
+   /* BOXES */
+  --boxes-border: 1px solid black;
+  --boxes-background-color: whitesmoke;
+  --hover-color: #262626;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+    flex-direction: column;
+}
+
+/* CONTENTS MAIN */
+
+.row {
+    display: flex;
+    margin-top: 3%;
+    background-color: transparent;
+    margin-bottom: 200px;
+}
+  
+.column {
+  float: left;
+  padding: 10px;
+  overflow: hidden;
+  width: 20%; 
+}
+
+.one, .two, .three, .four, .five {
+  height: 600px;
+}
+
+/* ICON MOVING PAGE*/
+
+#movable {
+  width: 20px;
+  margin: 0px;
+  background-color: transparent;
+}
+
+/* TEXTS */
+
+.note {
+  color: var(--notes-color);
+  font-weight: bolder;
+  background-color: transparent;
+  width: fit-content;
+  font-size: 0.7em;
+  vertical-align: super;
+}
+
+p {
+  background-color: transparent;
+  overflow:hidden;
+}
+
+
+b {
+  background-color: transparent;
+
+}
+
+.biblio {
+  font-family: var(--box-p-font-family);
+  font-size: 13px;
+  padding: 10px;
+  max-width: 100%;
+  z-index: -1;
+  background-color: transparent;
+  text-align: left;
+  display:flex;
+  justify-content:center;
+  bottom:0;
+  margin-top: auto;
+  color: grey;
+}
+
+.hov {
+ 
+  transition: 0.3s ease-in;
+}
+
+.hov1 {
+ 
+  transition: 0.3s ease-in;
+}
